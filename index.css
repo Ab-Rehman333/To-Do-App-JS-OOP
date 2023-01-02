@@ -4,3 +4,24 @@ tbody, td, tfoot, th, thead, tr {
     border-width: 0;
     text-align: center;
 }
+
+.form {
+    width: auto;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    min-width: 500px;
+    border-radius: 1em;
+}
+.alert{
+    width: 100%;
+}
+@media (max-width:600px) {
+    .form{
+        width: 100%;
+        min-width: auto;
+    }
+}
+.main{
+    width: 100%;
+}

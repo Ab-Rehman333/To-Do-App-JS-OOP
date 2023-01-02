@@ -41,7 +41,7 @@ class UI {
         creatDiv.className = `alert alert-${className}`;
         creatDiv.innerHTML = message;
         let getContainer = document.querySelector(".container");
-        let getForm = document.querySelector("#book-form");
+        let getForm = document.querySelector(".form");
         getContainer.insertBefore(creatDiv, getForm);
 
         // remove alert after 3 second
